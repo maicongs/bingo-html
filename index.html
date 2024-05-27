@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Bingo</h1>
+        <button id="draw-button">Sortear Numero</button>
+        <p id="last-number">Ultimo Numero Sorteado: <span id="last-number-value">-</span></p>
+        <p id="total-drawn">Total de Numeros Sorteados: <span id="total-drawn-value">0</span></p>
+        <button id="show-table-button">Mostrar Tabela</button>
+        <div id="number-table" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numeros</th>
+                    </tr>
+                </thead>
+                <tbody id="number-table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
